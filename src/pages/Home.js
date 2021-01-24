@@ -8,10 +8,10 @@ import Events from "./Events";
 const Home = () => {
   return (
     <div className="text-center">
-        <h5 className="text-uppercase m-4">Find best online events going on!</h5>
+        <h5 className="text-uppercase m-3">Find best online events going on!</h5>
       <div className="row">        
         <div className="col-xs-6 col-md-3 col-sm-6">
-          <Card title="Web Development Bootcamp" date="15-02-2021" time="5:00pm" venue="Online" organisation="MLH" organiser="Atif Khan"></Card>
+          <Card title="Dev Bootcamp" date="15-02-2021" time="5:00pm" venue="Online" organisation="MLH" organiser="Atif Khan"></Card>
         </div>
         <div className="col-xs-6 col-md-3 col-sm-6">
           <Card title="Digital Marketing Session" date="20-02-2021" time="4:00pm" venue="Online" organisation="Turbo Academy" organiser="Ajay Mishra"></Card>
@@ -23,7 +23,7 @@ const Home = () => {
           <Card title="Tech Fest" date="20-04-2021" time="3:00pm" venue="Vanice mall" organisation="IIT Kanpur" organiser="Ananya Singh"></Card>
         </div>
         <div className="col-xs-6 col-md-3 col-sm-6">
-          <Card title="Personal Development Session" date="20-02-2021" time="10:00am" venue="online" organisation="Delhi Hacks" organiser="Ajay Pandey"></Card>
+          <Card title="Personal Development" date="20-02-2021" time="10:00am" venue="online" organisation="Delhi Hacks" organiser="Ajay Pandey"></Card>
         </div>
         <div className="col-xs-6 col-md-3 col-sm-6">
           <Card title="Hacking Challenge" date="25-02-2021" time="4:00pm" venue="online" organisation="NSD" organiser="Sunita Sharma"></Card>
