@@ -157,13 +157,12 @@ const TodoForm=()=>{
                         onChange={e => setDesc(e.target.value)}
                         />
                     </Col>
-                    </FormGroup>
-                </CardBody>
+                    </FormGroup>               
                 
-                    <Button style={{background: "linear-gradient(to right, #FED54A,#FD297A)"}} type="submit" block>
-                    Add Event
-                    </Button>
-                
+                      <Button style={{background: "linear-gradient(to right, #FED54A,#FD297A)"}} type="submit" block>
+                        Add Event
+                      </Button>
+                    </CardBody>                
                 </Form>
             </Card>
             </Col>
