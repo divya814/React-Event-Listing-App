@@ -22,7 +22,7 @@ const Header = () => {
   const toggle = () => setIsOpen(!isOpen);
 
   return (
-    <Navbar style={{background: "linear-gradient(to right, #538FFB, #5737D6)", marginBottom:"25px" }} light expand="md">
+    <Navbar style={{background: "linear-gradient(to right, #538FFB, #5737D6)", marginBottom:"10px" }} light expand="md">
       <NavbarBrand>
         <Link to="/" className="text-white">
           Event Listing App
