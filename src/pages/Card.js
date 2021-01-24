@@ -2,7 +2,7 @@ import React from "react";
 
 const Card=({title="Card1", organisation="MLH", organiser="XYZ",date="today",time="5:00pm",venue="online", but="Details"})=>{
     return(
-        <div className="card text-center" style={{width: "20rem", margin:"15px 5px"}}>
+        <div className="card text-center" style={{width: "18rem", margin:"15px 8px"}}>
           <img
             src="https://images.pexels.com/photos/3532557/pexels-photo-3532557.jpeg"
             className="card-img-top"
