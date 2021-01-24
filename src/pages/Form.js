@@ -50,7 +50,7 @@ const TodoForm=()=>{
             <Card>
                 <Form onSubmit={handleSubmit}>
                 <CardHeader style={{background: "linear-gradient(to right, #FED54A,#FD297A)"}} className="bg-success text-light">
-                    <h4>Describe Your Event</h4></CardHeader>
+                    Describe Your Event</CardHeader>
                 <CardBody>
                     <FormGroup row>
                     <Label for="eventName" sm={4}>
@@ -161,7 +161,7 @@ const TodoForm=()=>{
                 </CardBody>
                 
                     <Button style={{background: "linear-gradient(to right, #FED54A,#FD297A)"}} type="submit" block>
-                    <h5>Add Event</h5>
+                    Add Event
                     </Button>
                 
                 </Form>
